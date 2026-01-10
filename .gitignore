@@ -1,0 +1,44 @@
+# Dataset files (large)
+data/
+archive (3)/
+Segmentation/
+
+# Model weights and outputs
+weights_from_scratch/
+*.pth
+*.pt
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Logs and databases
+*.log
+*.sqlite
+
+# Temporary files
+*.tmp
+*.temp
