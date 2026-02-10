@@ -27,9 +27,15 @@ ENV/
 *.swo
 *~
 
-# OS files
+# OS
 .DS_Store
 Thumbs.db
+
+# Video files
+*.mp4
+*.avi
+*.webm
+*.mov
 
 # Jupyter Notebook
 .ipynb_checkpoints
@@ -38,7 +44,17 @@ Thumbs.db
 # Logs and databases
 *.log
 *.sqlite
+logs/
 
 # Temporary files
 *.tmp
 *.temp
+
+# Inference results
+inference_results/
+
+# Training outputs
+training_curves.png
+evaluation_report.json
+training_history.json
+test_indices.json
